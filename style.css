@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Romanesco&display=swap');
+body {
+    margin: 0;
+    font-family: 'Romanesco';
+    font-size: 48px;
+    line-height: 48px;
+}
+header {
+    color: #0C5B5B;
+    padding: 10px 10px 0 10px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(270deg, rgba(25, 186, 167, 0.71) 32.5%, rgba(94, 245, 255, 0) 96.56%);
+}
+.happy {
+    color: #061A60;
+    width: 100vw;
+    height: 112vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: no-repeat url(snow.png);
+    background-size: cover;
+}
+.happy0:first-child {
+    height: 138px;
+    width: 266px;
+    padding-left: 10px;
+    border-radius: 0px 50px 0px 0px;
+    background: linear-gradient(180deg, rgba(255, 16, 217, 0.5) 0%, rgba(196, 196, 196, 0) 107.25%);
+}
+.happy0:last-child, .wish1, .wish2, .wish3 {
+    height: 138px;
+    width: 266px;
+    padding-right: 10px;
+    margin-left: auto;
+    text-align: right;
+    background: linear-gradient(180deg, rgba(255, 16, 217, 0.5) 0%, rgba(196, 196, 196, 0) 107.25%);
+    border-radius: 50px 0px 0px 0px;
+}
+.line, .line1, .line2, .line3 {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #ffffff;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.9) 0%, rgba(0, 0, 0, 0) 73.28%), #061A60;
+}
+.card {
+    height: 200vw;
+}
+.card div, .card1 div, .card2 div {
+    position: relative;
+}
+.rope img {
+    width: 100vw;
+    height: 63.3vw;
+}
+.wintersky img {
+    width: 100vw;
+    height: 166.1vw;
+}
+.wintersky {
+    bottom: 32vw;
+    z-index: 1;
+}
+.we, .we1, .we2, .we3 {
+    bottom: 170vw;
+    width: 100vw;
+    height: 133.3vw;
+    overflow:hidden;
+    position:relative;
+}
+.photo_slider_css, .photo_slider_css1, .photo_slider_css2, .photo_slider_css3 {
+    position:absolute;
+    animation:round 16s infinite;
+    opacity:0;
+    width:100%
+}
+@keyframes round {
+    25%{opacity:1}
+    40%{opacity:0}
+}
+img:nth-child(1) {animation-delay:12s}
+img:nth-child(2) {animation-delay:8s}
+img:nth-child(3) {animation-delay:4s}
+img:nth-child(4) {animation-delay:0}
+
+.line1 {
+    margin-top: 10px;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.9) 0%, rgba(10, 68, 23, 0) 73.28%), #319364;
+}
+.wish1, .wish2, .wish3 {
+    margin-top: 10px;
+    padding-top: 30px;
+    color: #214A37;
+    background: linear-gradient(180deg, rgba(40, 213, 67, 0.5) 0%, rgba(196, 196, 196, 0) 107.25%);
+}
+.card1, .card2 {
+    margin-top: 10px;
+    height: 133.25vw;
+}
+.leaves img {
+    width: 100vw;
+    height: 133.25vw;
+}
+.leaves {
+    z-index: 1;
+}
+.we1 {
+    bottom: 136vw;
+    width: 100vw;
+    height: 133.3vw;
+}
+
+.line2 {
+    color: #214A37;
+    margin-top: 10px;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.9) 0%, rgba(246, 255, 143, 0) 73.28%), #F6FF8F;
+}
+.wish2 {
+    background: linear-gradient(180deg, rgba(246, 255, 143, 0.5) 0%, rgba(196, 196, 196, 0) 107.25%);
+    z-index: 2;
+}
+.card2 {
+    height: 184vw;
+}
+.summersky img {
+    width: 100vw;
+    height: 200.25vw;
+    opacity: 0.5;
+    object-fit: cover;
+}
+.summersky {
+    bottom: 176px;
+    z-index: 1;
+}
+.we2 {
+    bottom: 198.25vw;
+    width: 100vw;
+    height: 133.3vw;
+}
+
+.line3 {
+    color: #214A37;
+    margin-top: 10px;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.9) 0%, rgba(246, 255, 143, 0) 73.28%), #FF6745;
+}
+.wish3 {
+    background: linear-gradient(180deg, rgba(246, 255, 143, 0.5) 0%, rgba(196, 196, 196, 0) 107.25%);
+    z-index: 2;
+}
+.autumnsky img {
+    width: 100vw;
+    height: 200.25vw;
+    opacity: 0.75;
+    object-fit: cover;
+}
+.autumnsky {
+    bottom: 179.2px;
+    z-index: 1;
+}
+.we3 {
+    bottom: 198.25vw;
+    width: 100vw;
+    height: 133.3vw;
+}
+
+.hr-dotted {
+	margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 2px dotted rgb(0, 0, 0);
+}
+
+.goal {
+    width: 320px;
+    color: #0C5B5B;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.su img {
+    border-radius: 15px;
+    width: 280px;
+    height: 186.4px;
+}
+
+.app, .su {
+    color: #0C5B5B;
+    display: flex;
+    justify-content: center;
+}
+
+.su {
+    margin-bottom: 30px;
+}
+
+.app {
+    margin-bottom: 30px;
+}
